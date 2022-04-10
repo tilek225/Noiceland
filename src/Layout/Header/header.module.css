@@ -1,0 +1,15 @@
+.header{
+    padding: 40px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}

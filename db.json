@@ -1,0 +1,60 @@
+{
+    "news" : [
+        {
+            "id" : 1,
+            "category" : "Photography",
+            "info" : "Helmut Lang celebrates taxi drivers worldwide in latest campaign",
+            "author" : "Alessandra Ortiz",
+            "imgUrl" : "./photos/postimage.png"
+        },
+        {
+            "id" : 2,
+            "category" : "Photography",
+            "info" : "Helmut Lang celebrates taxi drivers worldwide in latest campaign",
+            "author" : "Alessandra Ortiz",
+            "imgUrl" : "./photos/postimage.png"
+        } ,
+        {
+            "id" : 3,
+            "category" : "Photography",
+            "info" : "Helmut Lang celebrates taxi drivers worldwide in latest campaign",
+            "author" : "Alessandra Ortiz",
+            "imgUrl" : "./photos/postimage.png"
+        },
+         {
+            "id" : 4,
+            "category" : "Photography",
+            "info" : "Helmut Lang celebrates taxi drivers worldwide in latest campaign",
+            "author" : "Alessandra Ortiz",
+            "imgUrl" : "./photos/postimage.png"
+        },
+         {
+            "id" : 5,
+            "category" : "Photography",
+            "info" : "Helmut Lang celebrates taxi drivers worldwide in latest campaign",
+            "author" : "Alessandra Ortiz",
+            "imgUrl" : "./photos/postimage.png"
+        } ,
+        {
+            "id" : 6,
+            "category" : "Photography",
+            "info" : "Helmut Lang celebrates taxi drivers worldwide in latest campaign",
+            "author" : "Alessandra Ortiz",
+            "imgUrl" : "./photos/postimage.png"
+        },
+        {
+            "id" : 7,
+            "category" : "Photography",
+            "info" : "Helmut Lang celebrates taxi drivers worldwide in latest campaign",
+            "author" : "Alessandra Ortiz",
+            "imgUrl" : "./photos/postimage.png"
+        },
+        {
+            "id" : 8,
+            "category" : "Photography",
+            "info" : "Helmut Lang celebrates taxi drivers worldwide in latest campaign",
+            "author" : "Alessandra Ortiz",
+            "imgUrl" : "./photos/postimage.png"
+        }
+    ]
+}
