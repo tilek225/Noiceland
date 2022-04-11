@@ -1,28 +1,30 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-
+import styles from './post.module.css'
 
 const Post = () => {
     const [posts, setPosts] = useState([]);
 
-    axios('http://localhost:8080/news')
+    axios('http://localhost:8080/posts')
         .then(({ data }) => setPosts(data))
 
 
+    const { row, card, category, info, author, hr } = styles
 
     return (
         <section>
             <div className='container'>
-                <div>
+                <div className={row}>
                     {posts.map(item => (
-                        <div key={item.id}>
+                        <div key={item.id} className={card}>
                             <img src={item.imgUrl} alt="img" />
-                            <p>{item.category}</p>
-                            <p>{item.info}</p>
-                            <h3>{item.author}</h3>
+                            <p className={category}>{item.category}</p>
+                            <p className={info}>{item.info}</p>
+                            <h3 className={author}>by {item.author}</h3>
                         </div>
                     ))}
                 </div>
+                <hr className={hr} />
             </div>
         </section>
     )
