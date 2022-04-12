@@ -1,15 +1,19 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from 'axios'
 import styles from './post.module.css'
 
 const Post = () => {
     const [posts, setPosts] = useState([]);
-
-    axios('http://localhost:8080/posts')
-        .then(({ data }) => setPosts(data))
-
-
     const { row, card, category, info, author, hr } = styles
+
+    useEffect(() => {
+        axios('http://localhost:8080/posts')
+            .then(({ data }) => setPosts(data))
+
+
+    }, [])
+
+
 
     return (
         <section>

@@ -127,7 +127,34 @@
             "info" : "Thousands of previously unseen photographs by Andy Warhol will be made public this Autumn",
             "author" : "Annie Lueilwitz",
             "imgUrl" : "./photos/latestimg3.png"
-        }
-
+        },
+        {
+            "id" : 13,
+            "category" : "Graphic Design",
+            "info" : "Anu Ambasna’s playful illustrations celebrate club culture, brown bodies and perfect paunches",
+            "author" : "Leo Bartell",
+            "imgUrl" : "./photos/latestimg7.png"
+        },
+        {
+            "id" : 14,
+            "category" : "Illustration",
+            "info" : "Japan House opens in mountainside to foster peak creativity.",
+            "author" : "Reta Torphy",
+            "imgUrl" : "./photos/postimage0.png"
+        },
+        {
+            "id" : 15,
+            "category" : "Photography",
+            "info" : "Helmut Lang celebrates taxi drivers worldwide in latest campaign",
+            "author" : "Alessandra Ortiz",
+            "imgUrl" : "./photos/latestimg.png"
+        },
+        {
+            "id" : 16,
+            "category" : "Photography",
+            "info" : "Bowlcut launch a new summer collection that pays homage to “UK legends”",
+            "author" : "Rosanna Ondricka",
+            "imgUrl" : "./photos/latestimg2.png"
+        }       
     ]
 }
